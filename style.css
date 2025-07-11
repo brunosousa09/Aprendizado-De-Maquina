@@ -1,0 +1,81 @@
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.explanation-text {
+    transition: opacity 0.4s ease-in-out;
+}
+
+.explanation-text.fade-out {
+    opacity: 0;
+}
+
+.card-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.dataset-btn {
+    background-color: #e7e5e4;
+    color: #44403c; 
+}
+
+.dataset-btn:hover {
+    background-color: #d6d3d1; 
+    transform: scale(1.05);
+}
+
+.dataset-btn.active {
+    background-color: #2563eb; 
+    color: white;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+    transform: scale(1.05);
+}
+
+.tab-button {
+    color: #6b7280;
+    border-color: transparent;
+}
+
+.tab-button:hover {
+    background-color: #f0f9ff; 
+    color: #3b82f6; 
+}
+
+.tab-button.active { 
+    border-color: #3b82f6;
+    color: #1e40af; 
+    background-color: transparent;
+}
+
+.chart-container { 
+    position: relative; 
+    width: 100%; 
+    max-width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 280px;
+    max-height: 400px; 
+}
+
+@media (min-width: 640px) { 
+    .chart-container { 
+        height: 320px; 
+    } 
+}
+
+@media (min-width: 1024px) { 
+    .chart-container { 
+        height: 360px; 
+    } 
+}
