@@ -5,7 +5,7 @@
 
 Uma Single-Page Application (SPA) educacional e interativa para a visualização e comparação dos algoritmos de agrupamento não supervisionado **K-Means** e **DBSCAN**.
 
-➡️ **[Acesse a Demonstração Ao Vivo]([https://brunosousa09.github.io/Aprendizado-De-Maquina])**  
+➡️ **[Acesse a Demonstração Ao Vivo](https://brunosousa09.github.io/Aprendizado-De-Maquina)**
 <p align="center">Interface principal da aplicação, demonstrando a comparação lado a lado.</p>
 
 ---
